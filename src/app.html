@@ -39,7 +39,31 @@
 		</svelte:head>
 		%svelte.head%
 	</head>
-	<body>
+	<body style="font-family: 'Rubik', sans-serif !important;">
 		<div id="svelte">%svelte.body%</div>
 	</body>
+	<style>
+		    /* width */
+		    ::-webkit-scrollbar {
+		    width: 5px;
+		    }
+
+		    /* Track */
+		    ::-webkit-scrollbar-track {
+		    background: #0D0D2B;
+		    }
+
+		    /* Handle */
+		    ::-webkit-scrollbar-thumb {
+		    background: #3D4DA1;
+		    }
+
+		    /* Handle on hover */
+		    ::-webkit-scrollbar-thumb:hover {
+		    background: #3D4DA1;
+		    }
+			html {
+        	scroll-behavior: smooth;
+    		}
+	</style>
 </html>
