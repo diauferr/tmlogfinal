@@ -44,17 +44,17 @@ export default {
             }
         ],
         stats: [{
-                img: "./icon-1.svg",
+                img: "icon-1.svg",
                 title: "89+",
                 p: "Parceiros ao redor do mundo"
             },
             {
-                img: "./icon-2.svg",
+                img: "icon-2.svg",
                 title: "10T+",
                 p: "Cargas transportadas"
             },
             {
-                img: "./icon-3.svg",
+                img: "icon-3.svg",
                 title: "195+",
                 p: "Paises suportados"
             }
