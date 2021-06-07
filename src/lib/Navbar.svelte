@@ -23,16 +23,30 @@
         menu.style.display = 'none';
     }
 
+    import translations from '../data/translations';
+    import { dict, locale, t } from '../data/i18n';
+    $: languages = Object.keys(translations);
+    $: dict.set(translations);
+
 </script>
 
 <nav class="w-full h-40 flex justify-around items-center">
     <img src="./logo-full-white.svg" alt="" class="">
     <ul class="hidden sm:flex justify-around items-center">
-        <li class="mr-2 md:mr-4 lg:mr-11"><a href="#">Início</a></li>
-        <li class="mr-2 md:mr-4 lg:mr-11"><a href="#">Soluções</a></li>
-        <li class="mr-2 md:mr-4 lg:mr-11"><a href="#">Sobre</a></li>
+        {#each $t('navbar') as item}
+        <li class="m-8 font-thin">
+            <a href="{item.path}">{item.label}</a>
+        </li>
+        {/each}
         <li class="mr-2 md:mr-4 lg:mr-11" id="divisor">|</li>
-        <a href="#" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">Contato</li></a>
+        <a href="#" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">{$t('contact')}</li></a>
+        <select bind:value={$locale} class="uppercase">
+            {#each languages as lang}
+              <option value={lang} class="uppercase flex items-center justify-center">
+                {lang}
+              </option>
+            {/each}
+        </select>
     </ul>
     <button class="sm:hidden" on:click={menu}>
         {#if clicked == false}
@@ -43,10 +57,11 @@
     </button>
 </nav>
 <ul class="hidden flex flex-col items-center bg-black" id="menuMobile">
-    <li class="my-8"><a href="#">Início</a></li>
-    <li class="my-8"><a href="#">Soluções</a></li>
-    <li class="my-8"><a href="#">Sobre</a></li>
-    <li class="my-8"><a href="#" class="">Contato</a></li>
+    {#each $t('navbar') as item}
+    <li class="my-8 font-thin">
+        <a href="{item.path}">{item.label}</a>
+    </li>
+    {/each}
 </ul>
 
 <style>
@@ -84,6 +99,6 @@
 
     @keyframes open {
         0%   {background-color:#0D0D2B; height: 0px;}
-        100% {background-color:#0D0D2B; height: 350px;}
+        100% {background-color:#0D0D2B; height: 250px;}
     }
 </style>

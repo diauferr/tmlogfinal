@@ -1,22 +1,28 @@
 
 <script>
+    
     export let solutions = [];
+    import translations from '../data/translations';
+    import { dict, locale, t } from '../data/i18n';
+    $: languages = Object.keys(translations);
+    $: dict.set(translations);
+    
 </script>
 
-<div id="solutions" class="w-full flex flex-col bg-yellow-400 text-white">
+<div id="solutions" class="w-full flex flex-col items-center bg-yellow-400 text-white">
     <div class="arrow">
         <span></span>
         <span></span>
         <span></span>
     </div>
-    {#each solutions as solution}
-    <div class="flex flex-col lg:flex-row items-center justify-center py-6">
-        <img src={solution.img} alt="">
+    {#each $t('solutions_data') as item}
+    <div class="flex flex-col lg:flex-row items-center justify-center py-6 max-w-7xl">
+        <img src={item.img} alt="">
         <div class="flex flex-col px-4 py-12">
-            <h1 class="py-4 text-4xl font-semibold">{solution.title}</h1>
-            <p class="py-4 opacity-60 max-w-screen-md font-thin">{solution.p}</p>
-            <a class="flex items-center" href={solution.link}>
-                <div class="btn py-3 px-8 rounded-full">{solution.more}</div>
+            <h1 class="py-4 text-4xl font-semibold">{item.title}</h1>
+            <p class="py-4 opacity-60 max-w-screen-sm font-thin">{item.p}</p>
+            <a class="flex items-center" href={item.link}>
+                <div class="btn py-3 px-8 rounded-full">{item.more}</div>
             </a>
         </div>
     </div>
