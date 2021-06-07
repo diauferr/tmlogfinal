@@ -50,7 +50,7 @@ export default {
             },
             {
                 img: "icon-2.svg",
-                title: "10T+",
+                title: "10Tons+",
                 p: "Cargas transportadas"
             },
             {
@@ -256,7 +256,7 @@ export default {
             },
             {
                 img: "./custom.png",
-                title: "CUSTOM",
+                title: "Integrated Logistics",
                 p: "Through our Integrated Logistics solutions, you can count on trained professionals to manage, transport, store, and distribute your cargo efficiently and safely.",
                 link: "/solutions/custom",
                 more: "Learn More"

@@ -82,6 +82,7 @@
             </div>
         </div>
 </div>
+<Footer />
 <style>
 
     img {
