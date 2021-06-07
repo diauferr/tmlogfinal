@@ -1,61 +1,88 @@
 
-<div id="solutions" class="w-full flex flex-col items-center justify-around text-white">
-    <div class="flex flex-col xl:flex-row items-center py-20">
-        <img class="max-w-sm md:max-w-xl" src="./air.png" alt="">
-        <div class="flex flex-col px-16">
-            <h1 class="my-4 text-4xl font-semibold">Frete AÉREO</h1>
-            <p class=" opacity-70 font-thin max-w-md">Com o transporte aéreo da TMLOG, sua empresa tem muitos benefícios e ganha muito na relação distância x tempo.</p>
-            <a class="" href="#">
-                <div class="flex items-center justify-center w-40 py-3 my-4 rounded-full btn">Saiba Mais</div>
+<script>
+    export let solutions = [];
+</script>
+
+<div id="solutions" class="w-full flex flex-col bg-yellow-400 text-white">
+    <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    {#each solutions as solution}
+    <div class="flex flex-col lg:flex-row items-center justify-center py-6">
+        <img src={solution.img} alt="">
+        <div class="flex flex-col px-4 py-12">
+            <h1 class="py-4 text-4xl font-semibold">{solution.title}</h1>
+            <p class="py-4 opacity-60 max-w-screen-md font-thin">{solution.p}</p>
+            <a class="flex items-center" href={solution.link}>
+                <div class="btn py-3 px-8 rounded-full">{solution.more}</div>
             </a>
         </div>
     </div>
-    <div class="flex flex-col xl:flex-row items-center py-20">
-        <img class="max-w-sm md:max-w-xl" src="./ship.png" alt="">
-        <div class="flex flex-col px-16">
-            <h1 class="my-4 text-4xl font-semibold">Frete MARÍTIMO</h1>
-            <p class=" opacity-70 font-thin max-w-md">A equipe da TMLOG possui amplo conhecimento e experiência neste modal, oferecendo soluções flexíveis e diversificadas.</p>
-            <a class="" href="#">
-                <div class="flex items-center justify-center w-40 py-3 my-4 rounded-full btn">Saiba Mais</div>
-            </a>
-        </div>
-    </div>
-    <div class="flex flex-col xl:flex-row items-center py-20">
-        <img class="max-w-sm md:max-w-xl" src="./truck.png" alt="">
-        <div class="flex flex-col px-16">
-            <h1 class="my-4 text-4xl font-semibold">Frete RODOVIÁRIO</h1>
-            <p class=" opacity-70 font-thin max-w-md">O serviço de transporte rodoviário da TMLOG proporciona tranquilidade e segurança para o seu negócio.</p>
-            <a class="" href="#">
-                <div class="flex items-center justify-center w-40 py-3 my-4 rounded-full btn">Saiba Mais</div>
-            </a>
-        </div>
-    </div>
-    <div class="flex flex-col xl:flex-row items-center py-20">
-        <img class="max-w-sm md:max-w-xl" src="./custom.png" alt="">
-        <div class="flex flex-col px-16">
-            <h1 class="my-4 text-4xl font-semibold">Logística Integrada</h1>
-            <p class=" opacity-70 font-thin max-w-md">Por meio dos serviços de Logística Integrada da TMLOG, você conta com profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança.</p>
-            <a class="" href="#">
-                <div class="flex items-center justify-center w-40 py-3 my-4 rounded-full btn">Saiba Mais</div>
-            </a>
-        </div>
-    </div>
+    {/each}
 </div>
 
 <style>
     #solutions {
-		background-color: #0D0D2B;
-        background-image: url("./background2.svg");
+        background-color: #0D0D2B;
+        /* background-image: url("./background.gif");
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
-	}
+        background-blend-mode: color-dodge; */
+    }
+
     img {
         mix-blend-mode: lighten;
     }
 
     .btn {
         background-color: #3D4DA1;
+    }
+
+    .btn:hover {
+        background-color: #324084;
+    }
+
+    .arrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arrow span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid #06A8FF;
+        border-right: 5px solid #06A8FF;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+
+    .arrow span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+
+    .arrow span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
     }
 
 </style>

@@ -32,7 +32,7 @@
         <li class="mr-2 md:mr-4 lg:mr-11"><a href="#">Soluções</a></li>
         <li class="mr-2 md:mr-4 lg:mr-11"><a href="#">Sobre</a></li>
         <li class="mr-2 md:mr-4 lg:mr-11" id="divisor">|</li>
-        <li class="mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn"><a href="#" class="">Contato</a></li>
+        <a href="#" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">Contato</li></a>
     </ul>
     <button class="sm:hidden" on:click={menu}>
         {#if clicked == false}
@@ -59,6 +59,10 @@
 
     #contact-btn {
         background-color: #3D4DA1;
+    }
+
+    #contact-btn:hover {
+        background-color: #324084;
     }
     
     #divisor {

@@ -4,11 +4,12 @@
 
 <Navbar />
 
-<div class=" w-full flex flex-col lg:flex-row items-center justify-center text-white" id="hero">
-	<div class="flex flex-col my-8 px-4">
-		<h1 class="text-6xl font-semibold">Logística & tecnologia</h1>
-		<h1 class="text-6xl font-semibold">movimentando seu</h1>
-		<h1 class="text-6xl font-semibold">negócio</h1>
+<div class="w-full flex flex-col lg:flex-row items-center justify-center text-white" id="hero">
+	<div class="wraper flex flex-col items-center lg:flex-row">  
+	<div class="flex flex-col my-8">
+		<h1 class="text-4xl md:text-6xl font-semibold">Logística & tecnologia</h1>
+		<h1 class="text-4xl md:text-6xl font-semibold">movimentando seu</h1>
+		<h1 class="text-4xl md:text-6xl font-semibold">negócio</h1>
 		<br>
 		<p class="font-thin">Nós trabalhamos com tecnologia de ponta para simplificar todo processo logístico do seu negócio.</p>
 		<br>
@@ -18,6 +19,7 @@
 	<div>
 		<img src="./hero.png" alt="">
 	</div>
+</div>
 </div>
 
 <style>
@@ -36,5 +38,9 @@
 
 	img {
 		mix-blend-mode: color-dodge;
+	}
+
+	.wraper {
+		max-width: 80%;	
 	}
 </style>
