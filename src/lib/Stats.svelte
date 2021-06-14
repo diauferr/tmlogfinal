@@ -27,9 +27,9 @@ import translations from '../data/translations';
     #container {
         background-color: #0D0D2B;
     }
-
+/* 
     img {
         width: 80px;
     }
-    
+     */
 </style>
