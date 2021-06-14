@@ -12,7 +12,7 @@ const { open } = getContext('simple-modal');
   
 const showSurprise = () => {
     open(Surprise, { message: "Cotação enviada!" });
-    setInterval(function(){ document.getElementById("fs-frm").reset(); }, 2000);
+    setTimeout(function(){ document.getElementById("fs-frm").reset(); }, 2000);
 };
 
 </script>

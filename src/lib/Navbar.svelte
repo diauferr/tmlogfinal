@@ -31,7 +31,7 @@
 </script>
 
 <nav class="w-full h-40 flex justify-around items-center">
-    <img src="./logo-full-white.svg" alt="" class="">
+    <img src="/logo-full-white.svg" alt="" class="">
     <ul class="hidden sm:flex justify-around items-center">
         {#each $t('navbar') as item}
         <li class="m-8 font-thin">
@@ -50,9 +50,9 @@
     </ul>
     <button class="sm:hidden" on:click={menu}>
         {#if clicked == false}
-        <img src="./menu.svg" alt="">
+        <img src="/menu.svg" alt="">
         {:else}
-        <img src="./menu-close.svg" alt="">
+        <img src="/menu-close.svg" alt="">
         {/if}
     </button>
 </nav>

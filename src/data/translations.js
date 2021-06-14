@@ -1,8 +1,7 @@
 export default {
     pt: {
         url: '/pt.svg',
-        logo: 'logo-full.svg',
-        logo_nested: '../logo-full.svg',
+        logo: '/logo-full.svg',
         navbar: [{
                 id: 1,
                 path: '/',
@@ -21,7 +20,6 @@ export default {
         ],
         contact: 'Contato',
         menu: '/menu.svg',
-        menu_nested: '../menu.svg',
         hero_slogan: [{
                 id: 1,
                 text: 'Logística & tecnologia'
@@ -50,7 +48,7 @@ export default {
             },
             {
                 img: "icon-2.svg",
-                title: "10Tons+",
+                title: "130Tons+",
                 p: "Cargas transportadas"
             },
             {
@@ -60,28 +58,28 @@ export default {
             }
         ],
         solutions_data: [{
-                img: "./air.png",
+                img: "/air.png",
                 title: "Frete AÉREO",
                 p: "Buscando agilidade e segurança no embarque? O transporte de cargas no Modal Aéreo é a solução para os casos de cargas prioritárias",
                 link: "/solutions/air",
                 more: "Saiba Mais"
             },
             {
-                img: "./ship.png",
+                img: "/ship.png",
                 title: "Frete MARÍTIMO",
                 p: "Possuímos amplo conhecimento e experiência no modal marítimo, oferecendo soluções flexíveis e diversificadas.",
-                link: "/solutions/ship",
+                link: "/solutions/sea",
                 more: "Saiba Mais"
             },
             {
-                img: "./truck.png",
+                img: "/truck.png",
                 title: "Frete RODOVIÁRIO",
                 p: "Nossos serviços de transporte rodoviário proporciona tranquilidade e segurança para o seu negócio.",
                 link: "/solutions/truck",
                 more: "Saiba Mais"
             },
             {
-                img: "./custom.png",
+                img: "/custom.png",
                 title: "Logística Integrada",
                 p: "Por meio das nossas soluções de Logística Integrada, você conta com profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança.",
                 link: "/solutions/custom",
@@ -153,9 +151,9 @@ export default {
         social_data: [{
             heading: "Nos encontre nas mídias sociais:",
             images_list: [{
-                list1: "./instagram.svg",
-                list2: "./twitter.svg",
-                list3: "./linkedin.svg"
+                list1: "/instagram.svg",
+                list2: "/twitter.svg",
+                list3: "/linkedin.svg"
             }]
         }],
         footer_data: [{
@@ -163,7 +161,7 @@ export default {
             description: "Logística & tecnologia movimentando seu negócio",
             image_local: "local.svg",
             contact_details: [{
-                street: "Rua Giovanni Battista Pirelli, 270, sala 207",
+                street: "Rua Giovanni Battista Pirelli, 271, sala 207",
                 street2: "Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340",
                 tel: "+55 11 4978-5939",
                 cel: "+55 11 98342-0044",
@@ -176,7 +174,6 @@ export default {
     en: {
         url: '/pt.svg',
         logo: 'logo-full.svg',
-        logo_nested: '../logo-full.svg',
         navbar: [{
                 id: 1,
                 path: '/',
@@ -195,7 +192,6 @@ export default {
         ],
         contact: 'Contact',
         menu: '/menu.svg',
-        menu_nested: '../menu.svg',
         hero_slogan: [{
                 id: 1,
                 text: 'Logistics & technology'
@@ -218,44 +214,44 @@ export default {
             }
         ],
         stats: [{
-                img: "./icon-1.svg",
+                img: "/icon-1.svg",
                 title: "89+",
                 p: "Partners around the world"
             },
             {
-                img: "./icon-2.svg",
-                title: "10T+",
+                img: "/icon-2.svg",
+                title: "130Tons+",
                 p: "Cargoes transported"
             },
             {
-                img: "./icon-3.svg",
+                img: "/icon-3.svg",
                 title: "195+",
                 p: "Supported Countries"
             }
         ],
         solutions_data: [{
-                img: "./air.png",
+                img: "/air.png",
                 title: "AIR Freight",
                 p: "Looking for agility and safety in the shipment? The transport of cargo by air is the solution for cases of priority cargo",
                 link: "/solutions/air",
                 more: "Learn More"
             },
             {
-                img: "./ship.png",
+                img: "/ship.png",
                 title: "SEA Freight",
                 p: "We have extensive knowledge and experience in the maritime modal, offering flexible and diversified solutions.",
-                link: "/solutions/ship",
+                link: "/solutions/sea",
                 more: "Learn More"
             },
             {
-                img: "./truck.png",
+                img: "/truck.png",
                 title: "TRUCK Freight",
                 p: "Our road transport services provide tranquility and safety for your business.",
                 link: "/solutions/truck",
                 more: "Learn More"
             },
             {
-                img: "./custom.png",
+                img: "/custom.png",
                 title: "Integrated Logistics",
                 p: "Through our Integrated Logistics solutions, you can count on trained professionals to manage, transport, store, and distribute your cargo efficiently and safely.",
                 link: "/solutions/custom",
@@ -327,9 +323,9 @@ export default {
         social_data: [{
             heading: "Find us on social media:",
             images_list: [{
-                list1: "./instagram.svg",
-                list2: "./twitter.svg",
-                list3: "./linkedin.svg"
+                list1: "/instagram.svg",
+                list2: "/twitter.svg",
+                list3: "/linkedin.svg"
             }]
         }],
         footer_data: [{
@@ -337,7 +333,7 @@ export default {
             description: "Logistics & technology moving your business",
             image_local: "local.svg",
             contact_details: [{
-                street: "Rua Giovanni Battista Pirelli, 270, sala 207",
+                street: "Rua Giovanni Battista Pirelli, 271, sala 207",
                 street2: "Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340",
                 tel: "+55 11 4978-5939",
                 cel: "+55 11 98342-0044",
@@ -349,8 +345,7 @@ export default {
     },
     es: {
         url: '/pt.svg',
-        logo: 'logo-full.svg',
-        logo_nested: '../logo-full.svg',
+        logo: '/logo-full.svg',
         navbar: [{
                 id: 1,
                 path: '/',
@@ -369,7 +364,6 @@ export default {
         ],
         contact: 'Contacto',
         menu: '/menu.svg',
-        menu_nested: '../menu.svg',
         hero_slogan: [{
                 id: 1,
                 text: 'Logística y tecnología'
@@ -392,44 +386,44 @@ export default {
             }
         ],
         stats: [{
-                img: "./icon-1.svg",
+                img: "/icon-1.svg",
                 title: "89+",
                 p: "Socios en todo el mundo"
             },
             {
-                img: "./icon-2.svg",
-                title: "10T+",
+                img: "/icon-2.svg",
+                title: "130Tons+",
                 p: "Cargas transportadas"
             },
             {
-                img: "./icon-3.svg",
+                img: "/icon-3.svg",
                 title: "195+",
                 p: "Países con soporte"
             }
         ],
         solutions_data: [{
-                img: "./air.png",
-                title: "Flete AÉREO",
+                img: "/air.png",
+                title: "Tráfico AÉREO",
                 p: "¿Busca agilidad y seguridad en el envío? El transporte de carga por vía aérea es la solución para los casos de carga prioritaria",
                 link: "/solutions/air",
                 more: "Más información"
             },
             {
-                img: "./ship.png",
-                title: "Flete MARÍTIMO",
+                img: "/ship.png",
+                title: "Tráfico MARÍTIMO",
                 p: "Contamos con amplios conocimientos y experiencia en el ámbito marítimo, ofreciendo soluciones flexibles y diversificadas.",
-                link: "/solutions/ship",
+                link: "/solutions/sea",
                 more: "Más información"
             },
             {
-                img: "./truck.png",
-                title: "flete CARRETERA",
+                img: "/truck.png",
+                title: "Tráfico CARRETERA",
                 p: "Nuestros servicios de transporte por carretera proporcionan tranquilidad y seguridad a su empresa.",
                 link: "/solutions/truck",
                 more: "Más información"
             },
             {
-                img: "./custom.png",
+                img: "/custom.png",
                 title: "Logística Integrada",
                 p: "A través de nuestras soluciones de Logística Integrada, usted puede contar con profesionales capacitados para gestionar, transportar, almacenar y distribuir su carga de manera eficiente y segura.",
                 link: "/solutions/custom",
@@ -501,9 +495,9 @@ export default {
         social_data: [{
             heading: "Encuéntranos en las redes sociales:",
             images_list: [{
-                list1: "./instagram.svg",
-                list2: "./twitter.svg",
-                list3: "./linkedin.svg"
+                list1: "/instagram.svg",
+                list2: "/twitter.svg",
+                list3: "/linkedin.svg"
             }]
         }],
         footer_data: [{
@@ -511,7 +505,7 @@ export default {
             description: "La logística y la tecnología mueven su negocio",
             image_local: "local.svg",
             contact_details: [{
-                street: "Rua Giovanni Battista Pirelli, 270, sala 207",
+                street: "Rua Giovanni Battista Pirelli, 271, sala 207",
                 street2: "Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340",
                 tel: "+55 11 4978-5939",
                 cel: "+55 11 98342-0044",

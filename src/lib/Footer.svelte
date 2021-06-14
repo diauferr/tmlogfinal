@@ -5,7 +5,7 @@
 <div id="footer" class="w-full flex flex-col text-white">
     <div id="wrap" class="w-full flex flex-col lg:flex-row items-center justify-around">
         <div class="flex flex-col px-4">
-            <img class="my-8" src="./logo-full-white.svg" alt="">
+            <img class="my-8" src="/logo-full-white.svg" alt="">
             <h1 class="text-2xl my-4">Logística & tecnologia movimentando seu negócio</h1>
             <p class="font-thin">Rua Giovanni Battista Pirelli, 270, sala 207<span style="opacity: 0;">A</span></p>
             <p class="font-thin">Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340</p>
@@ -38,13 +38,13 @@
         </div>
         <div class="flex">
             <a href="#">
-                <img class="mx-4 px-3" src="./linkedin.svg" alt="">
+                <img class="mx-4 px-3" src="/linkedin.svg" alt="">
             </a>
             <a href="#">
-                <img class="mx-4 px-3" src="./instagram.svg" alt="">
+                <img class="mx-4 px-3" src="/instagram.svg" alt="">
             </a>
             <a href="#">
-                <img class="mx-4 px-3" src="./twitter.svg" alt="">
+                <img class="mx-4 px-3" src="/twitter.svg" alt="">
             </a>
         </div>
     </div>
