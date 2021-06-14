@@ -42,17 +42,17 @@ export default {
             }
         ],
         stats: [{
-                img: "/icon-1.svg",
+                img: "/icon-01.svg",
                 title: "89+",
                 p: "Parceiros ao redor do mundo"
             },
             {
-                img: "/icon-2.svg",
+                img: "/icon-02.svg",
                 title: "130Tons+",
                 p: "Cargas transportadas"
             },
             {
-                img: "/icon-3.svg",
+                img: "/icon-03.svg",
                 title: "195+",
                 p: "Paises suportados"
             }
@@ -214,17 +214,17 @@ export default {
             }
         ],
         stats: [{
-                img: "/icon-1.svg",
+                img: "/icon-01.svg",
                 title: "89+",
                 p: "Partners around the world"
             },
             {
-                img: "/icon-2.svg",
+                img: "/icon-02.svg",
                 title: "130Tons+",
                 p: "Cargoes transported"
             },
             {
-                img: "/icon-3.svg",
+                img: "/icon-03.svg",
                 title: "195+",
                 p: "Supported Countries"
             }
@@ -386,17 +386,17 @@ export default {
             }
         ],
         stats: [{
-                img: "/icon-1.svg",
+                img: "/icon-01.svg",
                 title: "89+",
                 p: "Socios en todo el mundo"
             },
             {
-                img: "/icon-2.svg",
+                img: "/icon-02.svg",
                 title: "130Tons+",
                 p: "Cargas transportadas"
             },
             {
-                img: "/icon-3.svg",
+                img: "/icon-03.svg",
                 title: "195+",
                 p: "Países con soporte"
             }
