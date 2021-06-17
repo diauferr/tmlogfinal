@@ -103,7 +103,7 @@ export default {
                 image_url: "success.svg"
             },
             {
-                title: "CONFIANÇA",
+                title: "VISÃO",
                 p: "Se tornar referência nacional em agenciamento de cargas no prazo de 05 anos.",
                 image_url: "trust.svg"
             },
@@ -275,7 +275,7 @@ export default {
                 image_url: "success.svg"
             },
             {
-                title: "TRUST",
+                title: "VISION",
                 p: "To become a national reference in cargo management within 5 years.",
                 image_url: "trust.svg"
             },
@@ -447,7 +447,7 @@ export default {
                 image_url: "success.svg"
             },
             {
-                title: "CONFIANZA",
+                title: "VISTA",
                 p: "Convertirse en una referencia nacional en la gestión de la carga en un plazo de 5 años.",
                 image_url: "trust.svg"
             },
