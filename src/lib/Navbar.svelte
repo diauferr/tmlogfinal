@@ -39,7 +39,7 @@
         </li>
         {/each}
         <li class="mr-2 md:mr-4 lg:mr-11" id="divisor">|</li>
-        <a href="#" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">{$t('contact')}</li></a>
+        <a href="#contact" class=""><li class="btn mr-2 md:mr-4 lg:mr-11 px-8 py-3 rounded-full" id="contact-btn">{$t('contact')}</li></a>
         <select bind:value={$locale} class="uppercase text-white" id="btn-lang">
             {#each languages as lang}
               <option value={lang} class="uppercase flex items-center justify-center">

@@ -8,7 +8,7 @@
 
 </script>
 
-<div id="container" class="w-full h-auto text-white text-center flex flex-col items-center">
+<div id="about" class="w-full h-auto text-white text-center flex flex-col items-center">
     <h1 class="text-4xl font-semibold py-2">{$t('about')[0].heading}</h1>
     <p class="font-thin my-8 max-w-md">{$t('about')[0].title}</p>
     <div class="flex flex-col items-center bg-white rounded-xl font-darkblue text-center max-w-md lg:max-w-xl px-8 shadow-lg">
@@ -27,7 +27,7 @@
 </div>
 
 <style>
-    #container {
+    #about {
         background: rgb(13,13,43);
         background: linear-gradient(180deg, rgba(13,13,43,1) 0%, rgba(61,77,161,1) 100%);
     }

@@ -17,7 +17,7 @@ const showSurprise = () => {
 
 </script>
 
-<div id="container" class="w-full flex flex-col items-center">
+<div id="contact" class="w-full flex flex-col items-center">
     <div class="login-box w-full max-w-2xl p-12 m-8 md:rounded-xl">
         <h2 class="text-3xl font-semibold text-center max-w-xl py-14 text-white">{$t('contact_data')[0].heading}</h2>
         <form id="fs-frm" target="formSubmitFrame" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvkrav" method="post" on:submit={showSurprise}>
@@ -65,7 +65,7 @@ const showSurprise = () => {
 </div>
 
 <style>
- #container {
+ #contact {
     background-color: #3D4DA1;
  }
 

@@ -38,7 +38,7 @@ export default {
             },
             {
                 id: 1,
-                text: 'Orçamento AGORA'
+                text: 'Solitar COTAÇÃO'
             }
         ],
         stats: [{
@@ -127,13 +127,13 @@ export default {
                 list9: "Solicitar Cotação"
             }],
             services_list: [{
-                list1: "selecionar",
-                list2: "importação marítima",
-                list3: "exportação marítima",
-                list4: "importação aérea",
-                list5: "exportação aérea",
-                list6: "importação rodoviária",
-                list7: "exportação rodoviária"
+                list1: "Selecionar",
+                list2: "Importação marítima",
+                list3: "Exportação marítima",
+                list4: "Importação aérea",
+                list5: "Exportação aérea",
+                list6: "Importação rodoviária",
+                list7: "Exportação rodoviária"
             }],
             placeholder_list: [{
                 list1: "Primeiro e último nome",
@@ -143,9 +143,9 @@ export default {
                 list5: "Ex: NY, EUA",
             }],
             importer_list: [{
-                list1: "selecionar",
-                list2: "sim",
-                list3: "não",
+                list1: "Selecionar",
+                list2: "Sim",
+                list3: "Não",
             }]
         }],
         social_data: [{
@@ -300,12 +300,12 @@ export default {
             }],
             services_list: [{
                 list1: "Select",
-                list2: "sea import",
-                list3: "sea export",
-                list4: "air import",
-                list5: "air export",
-                list6: "truck import",
-                list7: "truck export"
+                list2: "Sea import",
+                list3: "Sea export",
+                list4: "Air import",
+                list5: "Air export",
+                list6: "Truck import",
+                list7: "Truck export"
             }],
             placeholder_list: [{
                 list1: "First and last name",
@@ -472,12 +472,12 @@ export default {
             }],
             services_list: [{
                 list1: "Seleccione",
-                list2: "importación por mar",
-                list3: "exportación por mar",
-                list4: "importación aérea",
-                list5: "exportación aérea",
-                list6: "importación por carretera",
-                list7: "exportación por carretera"
+                list2: "Importación por mar",
+                list3: "Exportación por mar",
+                list4: "Importación aérea",
+                list5: "Exportación aérea",
+                list6: "Importación por carretera",
+                list7: "Exportación por carretera"
             }],
             placeholder_list: [{
                 list1: "Nombre y apellido",

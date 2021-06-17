@@ -17,7 +17,7 @@
 		<br>
 		<p class="font-thin">{$t('hero_slogan')[3].text}</p>
 		<br>
-		<a class="flex items-center justify-around w-52 h-14 rounded-full px-2" id="btn" href="#">{$t('hero_slogan')[4].text}<img src="/arrow-right.svg" alt=""></a>
+		<a class="flex items-center justify-around w-52 h-14 rounded-full px-2" id="btn" href="#contact">{$t('hero_slogan')[4].text}<img src="/arrow-right.svg" alt=""></a>
 		<br>
 	</div>
 	<div>
