@@ -45,7 +45,7 @@
 <div id="custom" class="w-full flex flex-col md:flex-row items-center justify-center pb-12">
     <img src="/air.png" alt="" class="my-8">
     <div class="flex flex-col items-center justify-center">
-        <h2 class="text-white text-3xl font-thin max-w-lg text-center px-4 py-8">Fazemos o envio de todas as mercadorias; cargas gerais. materiais com validade curta; mercadorias perigosas. cargas com ampla complexidade.</h2>
+        <h2 class="text-white text-3xl font-thin max-w-lg text-center px-4 py-8">Fazemos o envio de todas as mercadorias: cargas gerais, materiais com validade curta, mercadorias perigosas, cargas com ampla complexidade.</h2>
         <h2 class="text-white text-3xl font-semibold max-w-lg text-center px-4 py-8">Não importa a origem, destino ou volume de sua carga. Estamos prontos para transportá-la com segurança e agilidade!</h2>
     </div>
 </div>
