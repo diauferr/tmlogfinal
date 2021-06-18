@@ -6,7 +6,7 @@
     <div id="wrap" class="w-full flex flex-col lg:flex-row items-center justify-around">
         <div class="flex flex-col px-4">
             <img class="my-8" src="/logo-full-white.svg" alt="">
-            <h1 class="text-2xl my-4">Logística & tecnologia movimentando seu negócio</h1>
+            <h1 class="text-2xl my-4">Nossa logística movimentando seu negócio.</h1>
             <p class="font-thin">Rua Giovanni Battista Pirelli, 271, sala 207<span style="opacity: 0;">A</span></p>
             <p class="font-thin">Vila Homero Thon, Santo André, SP - Brasil - CEP 09111-340</p>
             <p class="font-thin">+55 11 4978-5939</p>

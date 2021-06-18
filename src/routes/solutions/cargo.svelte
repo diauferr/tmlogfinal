@@ -26,7 +26,7 @@
         <ul class="text-white">
             <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Equipe</li>
             <li class="flex flex-row items-center my-8 font-thin opacity-60">Equipe especializada, treinada e 100% dedicada ao seguro de cargas</li>
-            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Vistoria: Vistoria particular em até 48h para portos e 24h para aeroportos</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Vistoria</li>
             <li class="flex flex-row items-center my-8 font-thin opacity-60">Vistoria particular em até 48h para portos e 24h para aeroportos</li>
             <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Averbações</li>
             <li class="flex flex-row items-center my-8 font-thin opacity-60">Averbações provisórias e definitivas efetuadas pela TMLOG</li>
