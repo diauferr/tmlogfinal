@@ -22,7 +22,7 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Logística & tecnologia'
+                text: 'Nossa logística'
             },
             {
                 id: 1,
@@ -201,7 +201,7 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Logistics & technology'
+                text: 'Our logistics'
             },
             {
                 id: 1,
@@ -380,7 +380,7 @@ export default {
         menu: '/menu.svg',
         hero_slogan: [{
                 id: 1,
-                text: 'Logística y tecnología'
+                text: 'Nuestra logistica'
             },
             {
                 id: 1,
