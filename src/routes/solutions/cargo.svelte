@@ -8,7 +8,7 @@
 <div id="airbanner" class="w-full flex items-center justify-center md:justify-end  md:px-36">
 	<div class="flex flex-col items-center justify-center">
         <img src="/logo-mini-white.svg" alt="" class="logo-mini">
-		<h1 class="text-white font-semibold text-6xl">frete Marítimo</h1>
+		<h1 class="text-white font-semibold text-6xl">Segurança de Carga</h1>
 		<div class="arrow my-8">
 			<span></span>
 			<span></span>
@@ -19,20 +19,23 @@
 
 <div id="custom" class="w-full flex flex-col md:flex-row items-center justify-center">
     <div>
-        <h1 class="text-white text-3xl font-thin max-w-lg text-center pt-12 md:pt-36 px-4 mx-12">Em nossos serviços de carga marítima, possuímos amplas opções de embarque aos nossos clientes, executando com eficiência cada projeto apresentado e acompanhamento de todo o processo.</h1>
-		<br>
-		<h2 class="text-white text-3xl font-semibold max-w-lg text-center lb-12 md:pb-36 px-4 mx-12">Realizamos análise de projetos de carga geral a cargas especiais, com amplo conhecimento e experiência em transporte marítimo, proporcionamos soluções flexíveis e diversificadas para o envio de cargas. Nossas soluções de frete marítimo incluem:</h2>
+        <h1 class="text-white text-3xl font-thin max-w-lg text-center pt-12 md:pt-36 px-12">A escolha de um seguro é uma das principais etapas de uma operação, e a TMLOG oferece assessoria completa neste processo,</h1>
+        <h2 class="text-white text-3xl font-semibold max-w-lg text-center lb-12 md:pb-36 px-12">apresentando uma relação única de confiança com o seu negócio.</h2>
     </div>
-    <div class="py-24">
+    <div class="py-24 px-4">
         <ul class="text-white">
-            <li class="flex flex-row items-center my-8 font-semibold text-xl mx-8">Embarques regulares</li>
-            <li class="flex flex-row items-center my-8 pr-8"><img id="icon" class="mx-4" src="../check.svg" alt="">FCL</li>
-            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">LCL</li>
-            <li class="flex flex-row items-center my-8 font-semibold text-xl mx-8">Transporte de Grandes Volumes & Cargas Especiais (IMO, OOG)</li>
-            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Open Top Container</li>
-			<li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Refers</li>
-			<li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Flat Rack</li>
-			<li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Plataforma</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Equipe</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Equipe especializada, treinada e 100% dedicada ao seguro de cargas</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Vistoria: Vistoria particular em até 48h para portos e 24h para aeroportos</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Vistoria particular em até 48h para portos e 24h para aeroportos</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Averbações</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Averbações provisórias e definitivas efetuadas pela TMLOG</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Follow up</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Aviso de sinistro, agendamento de vistoria e acompanhamento do processo</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Cobertura</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Cobertura de avaria grossa e salvamento</li>
+            <li class="flex flex-row items-center my-8"><img id="icon" class="mx-4" src="../check.svg" alt="">Seguro</li>
+            <li class="flex flex-row items-center my-8 font-thin opacity-60">Coberturas básicas, adicionais e cláusulas específicas automaticamente contratadas</li>
         </ul>
     </div>
 </div>
@@ -45,9 +48,9 @@
 </div>
 
 <div id="custom" class="w-full flex flex-col md:flex-row items-center justify-center pb-12">
-    <img src="/ship.png" alt="" class="my-8">
+    <img src="/cargo.png" alt="" class="my-8">
     <div class="flex flex-col items-center justify-center">
-        <h2 class="text-white text-3xl font-thin max-w-lg text-center px-4 py-8">Sua carga sendo <span class="font-semibold">coletada e entregue com segurança </span>, agilidade e acompanhamento de ponta a ponta.</h2>
+        <h2 class="text-white text-3xl font-semibold max-w-lg text-center px-4 py-8">Não importa a origem, destino ou volume de sua carga. Estamos prontos para transportá-la com segurança e agilidade!</h2>
     </div>
 </div>
 <div class="flex flex-col lg:flex-row">
@@ -64,7 +67,7 @@
 	#airbanner {
 		height: 800px;
 		background-color: #0D0D2B;
-		background-image: url("/sea-banner.jpg");
+		background-image: url("/cargo-header.webp");
 		background-position: right;
 		background-size: cover;
 		background-blend-mode: luminosity;

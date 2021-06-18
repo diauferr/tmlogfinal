@@ -84,6 +84,13 @@ export default {
                 p: "Por meio das nossas soluções de Logística Integrada, você conta com profissionais capacitados para administrar, transportar, armazenar e distribuir sua carga com eficiência e segurança.",
                 link: "/solutions/custom",
                 more: "Saiba Mais"
+            },
+            {
+                img: "/cargo.png",
+                title: "Seguro de Carga",
+                p: "A escolha de um seguro é uma das principais etapas de uma operação, e a TMLOG oferece assessoria completa neste processo.",
+                link: "/solutions/cargo",
+                more: "Saiba Mais"
             }
         ],
         about: [{
@@ -256,6 +263,13 @@ export default {
                 p: "Through our Integrated Logistics solutions, you can count on trained professionals to manage, transport, store, and distribute your cargo efficiently and safely.",
                 link: "/solutions/custom",
                 more: "Learn More"
+            },
+            {
+                img: "/cargo.png",
+                title: "Cargo Insurance",
+                p: "Choosing insurance is one of the key steps in an operation, and TMLOG offers complete advice in this process.",
+                link: "/solutions/cargo",
+                more: "Learn More"
             }
         ],
         about: [{
@@ -427,6 +441,13 @@ export default {
                 title: "Logística Integrada",
                 p: "A través de nuestras soluciones de Logística Integrada, usted puede contar con profesionales capacitados para gestionar, transportar, almacenar y distribuir su carga de manera eficiente y segura.",
                 link: "/solutions/custom",
+                more: "Más información"
+            },
+            {
+                img: "/cargo.png",
+                title: "Seguridad de Carga",
+                p: "La elección de un seguro es uno de los pasos clave en una operación, y TMLOG ofrece un asesoramiento completo en este proceso.",
+                link: "/solutions/cargo",
                 more: "Más información"
             }
         ],
